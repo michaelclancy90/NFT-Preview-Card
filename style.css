@@ -1,3 +1,24 @@
+:root {
+
+  /*
+  colors
+  */
+
+  --main-bg-color: hsl(217, 54%, 11%);
+  --card-bg-color: hsl(217, 54%, 11%);
+  --line-color: hsl(217, 54%, 11%);
+  --main-font-color: hsl(215, 51%, 70%);
+  --currency-font-color: hsl(178, 100%, 50%);
+  --header-font-color: hsl(0, 0%, 100%);
+
+  /*
+  fonts
+  */
+  
+  --boldest-font: hsl(217, 54%, 11%);
+  --middle-font: hsl(217, 54%, 11%);
+  --lightest-font: hsl(217, 54%, 11%);
+}
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -43,10 +64,5 @@
   */
   p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
-  }
-  /*
-    9. Create a root stacking context
-  */
-  #root, #__next {
-    isolation: isolate;
+    color:hsl(215, 51%, 70%);
   }
